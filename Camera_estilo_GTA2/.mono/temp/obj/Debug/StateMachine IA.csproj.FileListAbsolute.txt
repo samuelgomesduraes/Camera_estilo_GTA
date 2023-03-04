@@ -1,0 +1,27 @@
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\StateMachine IA\.mono\temp\bin\Debug\StateMachine IA.dll
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\StateMachine IA\.mono\temp\bin\Debug\StateMachine IA.pdb
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\StateMachine IA\.mono\temp\obj\Debug\StateMachine IA.csproj.AssemblyReference.cache
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\StateMachine IA\.mono\temp\obj\Debug\StateMachine IA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\StateMachine IA\.mono\temp\obj\Debug\StateMachine IA.AssemblyInfoInputs.cache
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\StateMachine IA\.mono\temp\obj\Debug\StateMachine IA.AssemblyInfo.cs
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\StateMachine IA\.mono\temp\obj\Debug\StateMachine IA.csproj.CoreCompileInputs.cache
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\StateMachine IA\.mono\temp\obj\Debug\StateMachine IA.dll
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\StateMachine IA\.mono\temp\obj\Debug\StateMachine IA.pdb
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA\.mono\temp\bin\Debug\StateMachine IA.dll
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA\.mono\temp\bin\Debug\StateMachine IA.pdb
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA\.mono\temp\obj\Debug\StateMachine IA.csproj.AssemblyReference.cache
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA\.mono\temp\obj\Debug\StateMachine IA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA\.mono\temp\obj\Debug\StateMachine IA.AssemblyInfoInputs.cache
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA\.mono\temp\obj\Debug\StateMachine IA.AssemblyInfo.cs
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA\.mono\temp\obj\Debug\StateMachine IA.csproj.CoreCompileInputs.cache
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA\.mono\temp\obj\Debug\StateMachine IA.dll
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA\.mono\temp\obj\Debug\StateMachine IA.pdb
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA2\.mono\temp\bin\Debug\StateMachine IA.dll
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA2\.mono\temp\bin\Debug\StateMachine IA.pdb
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA2\.mono\temp\obj\Debug\StateMachine IA.csproj.AssemblyReference.cache
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA2\.mono\temp\obj\Debug\StateMachine IA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA2\.mono\temp\obj\Debug\StateMachine IA.AssemblyInfoInputs.cache
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA2\.mono\temp\obj\Debug\StateMachine IA.AssemblyInfo.cs
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA2\.mono\temp\obj\Debug\StateMachine IA.csproj.CoreCompileInputs.cache
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA2\.mono\temp\obj\Debug\StateMachine IA.dll
+C:\Users\samuel\Documents\ARENA 8\C#SHARP\Camera_estilo_GTA2\.mono\temp\obj\Debug\StateMachine IA.pdb

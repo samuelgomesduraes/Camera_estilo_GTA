@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "j4st5qql3oxnDNaX+UDqA0tqRblK+zZajNrzs3CQAy+nedj4fM+lGQVTt/heRnzCp41cjoivEvRcOePmOAOKoA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samuel\\Documents\\ARENA 8\\C#SHARP\\Camera_estilo_GTA2\\StateMachine IA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samuel\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\samuel\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.2\\microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
