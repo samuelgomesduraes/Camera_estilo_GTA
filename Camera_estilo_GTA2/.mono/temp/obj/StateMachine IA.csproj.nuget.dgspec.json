@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samuel\\Documents\\ARENA 8\\C#SHARP\\Camera_estilo_GTA2\\StateMachine IA.csproj": {}
+    "C:\\Users\\samuel\\Documents\\GitHub\\Camera_estilo_GTA\\Camera_estilo_GTA2\\StateMachine IA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samuel\\Documents\\ARENA 8\\C#SHARP\\Camera_estilo_GTA2\\StateMachine IA.csproj": {
+    "C:\\Users\\samuel\\Documents\\GitHub\\Camera_estilo_GTA\\Camera_estilo_GTA2\\StateMachine IA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samuel\\Documents\\ARENA 8\\C#SHARP\\Camera_estilo_GTA2\\StateMachine IA.csproj",
+        "projectUniqueName": "C:\\Users\\samuel\\Documents\\GitHub\\Camera_estilo_GTA\\Camera_estilo_GTA2\\StateMachine IA.csproj",
         "projectName": "StateMachine IA",
-        "projectPath": "C:\\Users\\samuel\\Documents\\ARENA 8\\C#SHARP\\Camera_estilo_GTA2\\StateMachine IA.csproj",
+        "projectPath": "C:\\Users\\samuel\\Documents\\GitHub\\Camera_estilo_GTA\\Camera_estilo_GTA2\\StateMachine IA.csproj",
         "packagesPath": "C:\\Users\\samuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samuel\\Documents\\ARENA 8\\C#SHARP\\Camera_estilo_GTA2\\.mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\samuel\\Documents\\GitHub\\Camera_estilo_GTA\\Camera_estilo_GTA2\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\samuel\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"

@@ -12,6 +12,9 @@ public class camera : Camera
     public int indice=0;
     SpringArm pivo;
     bool pos1=false;bool pos2=false;bool pos3=false;
+    enum cam_estado{cam1,cam2,cam3}
+    cam_estado cam_atual=cam_estado.cam2;
+
     public override void _Ready()
     {
         jogador=GetNode<KinematicBody>("../../jogador");//1 forma de pegar o node do jogador 
@@ -25,6 +28,13 @@ public class camera : Camera
     public override void _Process(float delta) {
 		camera_lookat();
         transicao_camera();
+        switch (cam_atual)
+        {
+            case cam_estado.cam1:trocar_camera1();break;
+            case cam_estado.cam2:trocar_camera2();break;
+            case cam_estado.cam3:trocar_camera3();break;
+        }
+
 	}
     public void camera_lookat(){//funcao que faz a camera olha pra cabeca do player
         LookAt(cabeca.GlobalTransform.origin,Vector3.Up);
@@ -32,24 +42,40 @@ public class camera : Camera
     }
     public void transicao_camera(){
         if(Input.IsActionJustPressed("ui_left")){
-            GlobalTranslation=ponto1.GlobalTranslation;
+            cam_atual=cam_estado.cam1;
         }
         else if(Input.IsActionJustPressed("ui_down")){
-            GlobalTranslation=ponto2.GlobalTranslation;
+            cam_atual=cam_estado.cam2;
         }
         else if(Input.IsActionJustPressed("ui_right")){
-            GlobalTranslation=ponto3.GlobalTranslation;
+            cam_atual=cam_estado.cam3;
         }
         if(pos3){
             raio.CastTo=new Vector3(0,0,-8);
         }
        if(raio.IsColliding() && pos2){
-        GlobalTranslation=ponto1.GlobalTranslation;
+            cam_atual=cam_estado.cam1;    
        }
        else if(raio.IsColliding() && pos3){
-        GlobalTranslation=ponto2.GlobalTranslation;
+        cam_atual=cam_estado.cam2;
        }
-    } 
+    }
+     public void trocar_camera1(){
+        float tempo=0.1f;
+        Vector3 posicao_ponto1=ponto1.GetGlobalTranslation();
+        GlobalTranslation=GlobalTranslation.LinearInterpolate(posicao_ponto1,tempo);
+    }
+    public void trocar_camera2(){
+        float tempo=0.1f;
+        Vector3 posicao_ponto2=ponto2.GetGlobalTranslation();
+        
+        GlobalTranslation=GlobalTranslation.LinearInterpolate(posicao_ponto2,tempo);
+    }
+    public void trocar_camera3(){
+        float tempo=0.1f;
+        Vector3 posicao_ponto3=ponto3.GetGlobalTranslation();
+        GlobalTranslation=GlobalTranslation.LinearInterpolate(posicao_ponto3,tempo);
+    }
 //SINAIS >
    private void _on_Area1_body_entered(Node body){
     if(body.IsInGroup("camera")){

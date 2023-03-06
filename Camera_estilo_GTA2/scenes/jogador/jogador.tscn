@@ -4041,7 +4041,7 @@ bones/21/name = "Fist.R"
 bones/21/parent = 20
 bones/21/rest = Transform( 0.999252, -0.0135389, -0.0362166, 0.0126264, 0.9996, -0.0253072, 0.0365448, 0.024831, 0.999023, 3.21276e-08, 0.425347, 5.04116e-08 )
 bones/21/enabled = true
-bones/21/bound_children = [  ]
+bones/21/bound_children = [ NodePath("BoneAttachment") ]
 bones/22/name = "UpperLeg.L"
 bones/22/parent = 2
 bones/22/rest = Transform( 0.999519, 0.0187576, 0.0247012, 0.0309454, -0.656818, -0.753416, 0.00209193, 0.753818, -0.657082, 0.53484, -0.181478, -0.191503 )
@@ -4079,7 +4079,7 @@ bones/28/enabled = true
 bones/28/bound_children = [  ]
 
 [node name="BoneAttachment" type="BoneAttachment" parent="bunny/CharacterArmature/Skeleton"]
-transform = Transform( -0.578497, -0.536069, -0.614793, 0.116997, -0.800453, 0.587866, -0.80725, 0.26815, 0.525778, -0.896075, 0.535238, 0.0737661 )
+transform = Transform( -0.578497, -0.53607, -0.614793, 0.116997, -0.800454, 0.587866, -0.807251, 0.26815, 0.525779, -0.896076, 0.535238, 0.0737655 )
 bone_name = "Fist.R"
 
 [node name="Gun" type="MeshInstance" parent="bunny/CharacterArmature/Skeleton/BoneAttachment"]
