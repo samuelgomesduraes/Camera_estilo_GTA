@@ -50,15 +50,13 @@ public class jogador : KinematicBody
 		}//mouse visivel controle
 		motion=MoveAndSlide(motion,Vector3.Up,true);
 		//ESTADOS
-		switch (state)
-		{
+		switch (state){
 			case statemachine.IDLE:estado_idle(delta);break;
 			case statemachine.WALK:estado_walk(delta);break;
 			case statemachine.JUMP:estado_jump(delta);break;	
 		}
 		
 	}//----process
-
 	private void estado_idle(float delta){
 		motion.x = 0;
 		motion.z = 0;
@@ -66,11 +64,9 @@ public class jogador : KinematicBody
 		godot_player_animation.Play("Idle");
 		if (Input.IsActionPressed("a") || Input.IsActionPressed("d")
 		|| Input.IsActionPressed("w") || Input.IsActionPressed("s")){
-
 			state=statemachine.WALK;
 		}
 		else if (Input.IsActionPressed("space")&& IsOnFloor() ){
-		
 			state=statemachine.JUMP;
 		}
 	}
